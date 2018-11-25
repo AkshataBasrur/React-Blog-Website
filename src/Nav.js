@@ -20,10 +20,11 @@ class Nav extends Component {
     return (
     	<div class="nav">
 		<h2>Explore more of .. </h2>
-         <a href="https://guidetoiceland.is/travel-iceland/drive/seljalandsfoss"><li> <h5>Seljalandsfoss, Iceland</h5></li></a>
+         <a href="https://guidetoiceland.is/travel-iceland/drive/seljalandsfoss"><li>Seljalandsfoss, Iceland</li></a>
          <a href="https://www.welcomeargentina.com/puertoiguazu/iguazu-falls.html"><li> Iguazu Falls, Argentina</li></a>
          <a href="https://visitgreenland.com/destinations/nuuk/"> <li> Nuuk, Greenland</li></a>
          
+         <h2>Explore more of .. </h2>
          
         {this.state.text}
         
